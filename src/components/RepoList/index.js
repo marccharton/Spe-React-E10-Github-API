@@ -2,7 +2,7 @@
 import React from 'react';
 
 // == Import
-// import './styles.css';
+//import './styles.scss';
 
 // == Composants
 import Repo from 'src/components/Repo';

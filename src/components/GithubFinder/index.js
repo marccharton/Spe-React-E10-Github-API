@@ -4,7 +4,8 @@ import axios from "axios";
 import moment from "moment";
 
 // == Import
-// import './styles.css';
+import './styles.scss';
+import github_logo from 'src/assets/img/logo-github.png';
 
 // Components
 import SearchBar from 'src/components/SearchBar';
@@ -62,6 +63,7 @@ function GithubFinder() {
 
   return (
     <div className="githubFinder">
+      <img src={github_logo} alt="github_logo"/>
       <SearchBar search={search} {...searchBarMethods} />
       <MessageBox {...message} count={count} />
       <RepoList repoList={repoList} />

@@ -51,6 +51,9 @@
     "moment": "^2.27.0",
     "prop-types": "*",
     "react": "*",
-    "react-dom": "*"
+    "react-dom": "*",
+    "react-icons": "^3.11.0",
+    "semantic-ui-css": "^2.4.1",
+    "semantic-ui-react": "^1.2.1"
   }
 }

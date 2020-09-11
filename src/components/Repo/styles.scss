@@ -1,0 +1,35 @@
+@import "src/styles/vars";
+
+.repo {
+    background-color: $second;
+    width: 300px;
+    margin: 1em;
+    padding: 1em;
+
+    .repo_informations {
+
+        .repo__name {
+            font-weight: bold;
+            font-size: 1.5em;
+
+            & a {
+                color: $primary;
+            }
+        }
+
+        .repo__owner {
+            font-weight: bold;
+            font-size: 1.2em;
+            & a {
+                color: $dark-grey;
+            }
+        }
+
+        .repo__img {
+            width:100px;
+            height:100px;
+        }
+    
+    }
+
+}

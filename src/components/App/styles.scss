@@ -1,3 +1,9 @@
+@import "src/styles/vars";
+
+body {
+  background: $dark-grey;
+}
+
 .app {
   width: 500px;
   margin: 1em auto;

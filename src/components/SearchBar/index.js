@@ -1,8 +1,10 @@
 // == Import npm
 import React, { useEffect } from 'react';
+import { FiSearch } from 'react-icons/fi';
+import { Input } from 'semantic-ui-react';
 
 // == Import
-// import './styles.css';
+import './styles.scss';
 
 const SearchBar = ({search, launchSearch, setSearch}) => {
   
@@ -20,13 +22,15 @@ const SearchBar = ({search, launchSearch, setSearch}) => {
   };
 
   return (
-    <div> 
-      <input type="text" 
+    <div className="searchBar"> 
+      <Input className="searchBar__input"
+             type="text" 
              value={search} 
              placeholder="search" 
              onChange={handleChange}
              onKeyDown={handleKeyDown}
-             />
+             icon='search'
+          />
     </div>
   );
 };
